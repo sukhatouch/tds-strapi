@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_archives",
+  "info": {
+    "singularName": "work-archive",
+    "pluralName": "work-archives",
+    "displayName": "Work Archive",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "project_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "project_title": {
+      "type": "string"
+    },
+    "program": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

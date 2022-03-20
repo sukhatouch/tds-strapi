@@ -1,0 +1,104 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "singularName": "program",
+    "pluralName": "programs",
+    "displayName": "Program",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "in": {
+      "type": "string"
+    },
+    "image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "overall": {
+      "type": "string"
+    },
+    "application_link": {
+      "type": "string"
+    },
+    "application_deadline": {
+      "type": "string"
+    },
+    "thinking_about_applying": {
+      "type": "text"
+    },
+    "entry_requirement": {
+      "type": "text"
+    },
+    "english_language_requirements": {
+      "type": "text"
+    },
+    "selection_criteria": {
+      "type": "text"
+    },
+    "personal_statement": {
+      "type": "text"
+    },
+    "portfolio": {
+      "type": "text"
+    },
+    "application_process": {
+      "type": "text"
+    },
+    "after_you_are_admiited": {
+      "type": "text"
+    },
+    "fees": {
+      "type": "string"
+    },
+    "fees_description": {
+      "type": "text"
+    },
+    "careers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::career.career"
+    },
+    "work_archives": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work-archive.work-archive"
+    },
+    "scholarships": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::scholarship.scholarship"
+    }
+  }
+}
