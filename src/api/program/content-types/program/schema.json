@@ -29,10 +29,10 @@
     "description": {
       "type": "text"
     },
-    "tag": {
+    "program_type": {
       "type": "string"
     },
-    "in": {
+    "program_in": {
       "type": "string"
     },
     "image_2": {

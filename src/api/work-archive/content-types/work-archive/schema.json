@@ -27,13 +27,9 @@
       "type": "string"
     },
     "program": {
-      "type": "string"
-    },
-    "tag": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::program.program"
     }
   }
 }
