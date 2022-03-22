@@ -37,6 +37,9 @@
     },
     "program": {
       "type": "string"
+    },
+    "image_url": {
+      "type": "string"
     }
   }
 }
