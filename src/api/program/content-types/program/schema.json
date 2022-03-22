@@ -99,6 +99,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::scholarship.scholarship"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "image_url_2": {
+      "type": "string"
     }
   }
 }
