@@ -31,9 +31,6 @@
     },
     "location": {
       "type": "string"
-    },
-    "date": {
-      "type": "datetime"
     }
   }
 }
