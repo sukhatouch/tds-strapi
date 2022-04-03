@@ -20,6 +20,12 @@
     },
     "vision_message": {
       "type": "text"
+    },
+    "work_archive_message_1": {
+      "type": "text"
+    },
+    "work_archive_message_2": {
+      "type": "text"
     }
   }
 }
