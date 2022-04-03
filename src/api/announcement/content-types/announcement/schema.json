@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "annoucements",
+  "collectionName": "announcements",
   "info": {
-    "singularName": "annoucement",
-    "pluralName": "annoucements",
-    "displayName": "Annoucement",
-    "description": ""
+    "singularName": "announcement",
+    "pluralName": "announcements",
+    "displayName": "Announcement"
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +18,7 @@
       "type": "string"
     },
     "detail": {
-      "type": "text"
+      "type": "string"
     }
   }
 }
