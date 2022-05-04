@@ -53,14 +53,15 @@
       "type": "text"
     },
     "offer_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "program_header": {
       "type": "string"
@@ -94,6 +95,11 @@
     },
     "join_partner_link": {
       "type": "string"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service.service"
     }
   }
 }
