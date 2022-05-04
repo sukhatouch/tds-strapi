@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "faculties",
+  "info": {
+    "singularName": "faculty",
+    "pluralName": "faculties",
+    "displayName": "Faculty",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "why_header": {
+      "type": "string"
+    },
+    "why_description": {
+      "type": "text"
+    },
+    "why_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "value_header": {
+      "type": "string"
+    },
+    "value_description": {
+      "type": "text"
+    },
+    "value_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "offer_header": {
+      "type": "string"
+    },
+    "offer_description": {
+      "type": "text"
+    },
+    "offer_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "program_header": {
+      "type": "string"
+    },
+    "program_description": {
+      "type": "text"
+    },
+    "staff_header": {
+      "type": "string"
+    },
+    "staff_description": {
+      "type": "text"
+    },
+    "service_header": {
+      "type": "string"
+    },
+    "service_description": {
+      "type": "text"
+    },
+    "partner_header": {
+      "type": "string"
+    },
+    "partner_description": {
+      "type": "text"
+    },
+    "join_partner_header": {
+      "type": "string"
+    },
+    "join_partner_description": {
+      "type": "text"
+    },
+    "join_partner_link": {
+      "type": "string"
+    }
+  }
+}
