@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "careers",
+  "collectionName": "ajarn_staffs",
   "info": {
-    "singularName": "career",
-    "pluralName": "careers",
-    "displayName": "Career",
-    "description": ""
+    "singularName": "ajarn-staff",
+    "pluralName": "ajarn-staffs",
+    "displayName": "ajarn_staff"
   },
   "options": {
     "draftAndPublish": true
@@ -19,26 +18,22 @@
       "type": "string"
     },
     "photo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "position": {
       "type": "string"
     },
-    "company": {
+    "specilisation": {
       "type": "string"
     },
     "program": {
-      "type": "string"
-    },
-    "image_url": {
       "type": "string"
     }
   }

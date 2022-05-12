@@ -105,6 +105,17 @@
     },
     "image_url_2": {
       "type": "string"
+    },
+    "curriculum": {
+      "type": "richtext"
+    },
+    "download_curriculumn": {
+      "type": "string"
+    },
+    "ajarn_staffs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ajarn-staff.ajarn-staff"
     }
   }
 }
