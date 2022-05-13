@@ -47,7 +47,7 @@
       ]
     },
     "overall": {
-      "type": "string"
+      "type": "text"
     },
     "application_link": {
       "type": "string"
