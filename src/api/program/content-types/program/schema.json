@@ -46,7 +46,7 @@
         "audios"
       ]
     },
-    "overall": {
+    "why_choose": {
       "type": "text"
     },
     "application_link": {
@@ -90,7 +90,7 @@
       "relation": "oneToMany",
       "target": "api::career.career"
     },
-    "work_archives": {
+    "student_archives": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::work-archive.work-archive"
@@ -100,22 +100,79 @@
       "relation": "oneToMany",
       "target": "api::scholarship.scholarship"
     },
-    "image_url": {
-      "type": "string"
-    },
-    "image_url_2": {
-      "type": "string"
-    },
     "curriculum": {
       "type": "richtext"
     },
     "download_curriculumn": {
       "type": "string"
     },
-    "ajarn_staffs": {
+    "peoples": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::ajarn-staff.ajarn-staff"
+    },
+    "overview_menu_1": {
+      "type": "string"
+    },
+    "overview_menu_2": {
+      "type": "string"
+    },
+    "overview_menu_3": {
+      "type": "string"
+    },
+    "overview_menu_4": {
+      "type": "string"
+    },
+    "overview_menu_5": {
+      "type": "string"
+    },
+    "overview_menu_6": {
+      "type": "string"
+    },
+    "why_choose_header": {
+      "type": "string"
+    },
+    "student_archive_header": {
+      "type": "string"
+    },
+    "curriculum_header": {
+      "type": "string"
+    },
+    "people_header": {
+      "type": "string"
+    },
+    "career_header": {
+      "type": "string"
+    },
+    "application_header": {
+      "type": "string"
+    },
+    "thinking_about_applying_header": {
+      "type": "string"
+    },
+    "entry_requirement_header": {
+      "type": "string"
+    },
+    "english_language_requirements_header": {
+      "type": "string"
+    },
+    "selection_criteria_header": {
+      "type": "string"
+    },
+    "personal_statement_header": {
+      "type": "string"
+    },
+    "portfolio_header": {
+      "type": "string"
+    },
+    "application_process_header": {
+      "type": "string"
+    },
+    "after_you_are_admitted_header": {
+      "type": "string"
+    },
+    "fees_funding_header": {
+      "type": "string"
     }
   }
 }
