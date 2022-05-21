@@ -76,7 +76,7 @@
     "application_process": {
       "type": "text"
     },
-    "after_you_are_admiited": {
+    "after_you_are_admitted": {
       "type": "text"
     },
     "fees": {
