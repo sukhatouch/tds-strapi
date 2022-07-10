@@ -4,7 +4,8 @@
   "info": {
     "singularName": "announcement",
     "pluralName": "announcements",
-    "displayName": "Announcement"
+    "displayName": "Announcement",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +19,7 @@
       "type": "string"
     },
     "detail": {
-      "type": "string"
+      "type": "richtext"
     }
   }
 }
