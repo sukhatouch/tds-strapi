@@ -4,7 +4,8 @@
   "info": {
     "singularName": "student",
     "pluralName": "students",
-    "displayName": "Student"
+    "displayName": "Student",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,14 +28,15 @@
       "type": "richtext"
     },
     "bachelor_degree_file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "master_degree_header": {
       "type": "string"
@@ -43,14 +45,15 @@
       "type": "richtext"
     },
     "master_degree_file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "scholarships": {
       "type": "relation",
@@ -61,14 +64,20 @@
       "type": "string"
     },
     "exchange_program_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "student_committees": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::student-committee.student-committee"
     }
   }
 }
