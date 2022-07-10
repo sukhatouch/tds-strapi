@@ -36,7 +36,21 @@
       "type": "string"
     },
     "program": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "architecture"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "board of committee",
+        "professor",
+        "staff"
+      ]
+    },
+    "biography": {
+      "type": "richtext"
     }
   }
 }
