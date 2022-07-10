@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_committees",
+  "info": {
+    "singularName": "student-committee",
+    "pluralName": "student-committees",
+    "displayName": "Student Committee"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "program": {
+      "type": "text"
+    }
+  }
+}
