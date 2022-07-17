@@ -29,12 +29,6 @@
     "description": {
       "type": "text"
     },
-    "program_type": {
-      "type": "string"
-    },
-    "program_in": {
-      "type": "string"
-    },
     "image_2": {
       "type": "media",
       "multiple": false,
@@ -49,41 +43,11 @@
     "why_choose": {
       "type": "text"
     },
-    "application_link": {
-      "type": "string"
-    },
-    "application_deadline": {
-      "type": "string"
-    },
-    "thinking_about_applying": {
-      "type": "text"
-    },
-    "entry_requirement": {
-      "type": "text"
-    },
-    "english_language_requirements": {
-      "type": "text"
-    },
-    "selection_criteria": {
-      "type": "text"
-    },
-    "personal_statement": {
-      "type": "text"
-    },
-    "portfolio": {
-      "type": "text"
-    },
-    "application_process": {
-      "type": "text"
-    },
     "after_you_are_admitted": {
       "type": "text"
     },
     "fees": {
       "type": "string"
-    },
-    "fees_description": {
-      "type": "text"
     },
     "careers": {
       "type": "relation",
@@ -172,6 +136,29 @@
       "type": "string"
     },
     "fees_funding_header": {
+      "type": "string"
+    },
+    "program_in": {
+      "type": "enumeration",
+      "enum": [
+        "program in built environment",
+        "program in design & strategy"
+      ]
+    },
+    "tuition_fees": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tuition_fees_header": {
+      "type": "string"
+    },
+    "scholarship_header": {
       "type": "string"
     }
   }
