@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "hamburger_menus",
+  "info": {
+    "singularName": "hamburger-menu",
+    "pluralName": "hamburger-menus",
+    "displayName": "Hamburger Menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_1_header": {
+      "type": "string"
+    },
+    "sub_section_1": {
+      "type": "string"
+    },
+    "sub_section_2": {
+      "type": "string"
+    },
+    "sub_section_3": {
+      "type": "string"
+    },
+    "programs_in_built_environment": {
+      "type": "richtext"
+    },
+    "programs_in_design_and_strategy": {
+      "type": "richtext"
+    },
+    "non_degree_program": {
+      "type": "richtext"
+    },
+    "apply_now_link": {
+      "type": "string"
+    },
+    "section_2_header": {
+      "type": "string"
+    },
+    "faculty_list": {
+      "type": "richtext"
+    },
+    "section_3_header": {
+      "type": "string"
+    },
+    "resources_list": {
+      "type": "richtext"
+    }
+  }
+}

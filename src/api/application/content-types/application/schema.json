@@ -1,34 +1,73 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "applications",
   "info": {
     "singularName": "application",
     "pluralName": "applications",
-    "displayName": "Application"
+    "displayName": "Application",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "program": {
-      "type": "text"
+    "page_name": {
+      "type": "string"
     },
-    "key_dates_numbers": {
+    "description": {
       "type": "richtext"
     },
-    "file": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "image": {
+      "type": "richtext"
     },
-    "order": {
-      "type": "integer"
+    "section_undergraduate": {
+      "type": "string"
+    },
+    "doctoral_program_1_link": {
+      "type": "string"
+    },
+    "doctoral_program_1_text": {
+      "type": "string"
+    },
+    "graduate_program_3_text": {
+      "type": "string"
+    },
+    "graduate_program_3_link": {
+      "type": "string"
+    },
+    "graduate_program_2_link": {
+      "type": "string"
+    },
+    "graduate_program_2_text": {
+      "type": "string"
+    },
+    "graduate_program_1_text": {
+      "type": "string"
+    },
+    "graduate_program_1_link": {
+      "type": "string"
+    },
+    "graduate_table": {
+      "type": "richtext"
+    },
+    "graduate_bullet_link": {
+      "type": "richtext"
+    },
+    "undergraduate_inter_table": {
+      "type": "richtext"
+    },
+    "undergraduate_thai_table": {
+      "type": "richtext"
+    },
+    "undergraduate_inter_header": {
+      "type": "string"
+    },
+    "section_graduate": {
+      "type": "string"
+    },
+    "undergraduate_thai_header": {
+      "type": "string"
     }
   }
 }

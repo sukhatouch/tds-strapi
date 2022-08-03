@@ -1,38 +1,25 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "researchs",
   "info": {
     "singularName": "research",
     "pluralName": "researchs",
-    "displayName": "Research"
+    "displayName": "Research",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "text"
-    },
-    "url": {
+    "page_name": {
       "type": "string"
     },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "section_name_1": {
+      "type": "string"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "Research units",
-        "Publications"
-      ]
+    "section_name_2": {
+      "type": "string"
     }
   }
 }
