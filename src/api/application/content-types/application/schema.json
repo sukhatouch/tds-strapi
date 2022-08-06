@@ -18,9 +18,6 @@
     "description": {
       "type": "richtext"
     },
-    "image": {
-      "type": "richtext"
-    },
     "section_undergraduate": {
       "type": "string"
     },
@@ -68,6 +65,16 @@
     },
     "undergraduate_thai_header": {
       "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
