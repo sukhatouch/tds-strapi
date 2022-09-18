@@ -146,19 +146,23 @@
       ]
     },
     "tuition_fees": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "tuition_fees_header": {
       "type": "string"
     },
     "scholarship_header": {
+      "type": "string"
+    },
+    "path_url": {
       "type": "string"
     }
   }
