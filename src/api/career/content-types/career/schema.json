@@ -40,6 +40,9 @@
     },
     "image_url": {
       "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
     }
   }
 }

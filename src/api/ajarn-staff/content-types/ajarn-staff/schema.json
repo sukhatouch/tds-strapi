@@ -32,15 +32,6 @@
     "position": {
       "type": "string"
     },
-    "professor_or_staff": {
-      "type": "string"
-    },
-    "program": {
-      "type": "enumeration",
-      "enum": [
-        "architecture"
-      ]
-    },
     "type": {
       "type": "enumeration",
       "enum": [
