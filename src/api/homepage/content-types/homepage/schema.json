@@ -26,6 +26,21 @@
     },
     "work_archive_message_2": {
       "type": "text"
+    },
+    "keywords_1": {
+      "type": "string"
+    },
+    "keywords_2": {
+      "type": "string"
+    },
+    "keywords_3": {
+      "type": "string"
+    },
+    "keywords_4": {
+      "type": "string"
+    },
+    "keywords_5": {
+      "type": "string"
     }
   }
 }
