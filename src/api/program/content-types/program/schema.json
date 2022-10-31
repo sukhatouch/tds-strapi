@@ -40,9 +40,6 @@
         "audios"
       ]
     },
-    "why_choose": {
-      "type": "text"
-    },
     "after_you_are_admitted": {
       "type": "text"
     },
@@ -164,6 +161,9 @@
     },
     "path_url": {
       "type": "string"
+    },
+    "why_choose": {
+      "type": "richtext"
     }
   }
 }
