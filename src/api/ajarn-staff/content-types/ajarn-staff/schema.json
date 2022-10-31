@@ -32,16 +32,20 @@
     "position": {
       "type": "string"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "board of committee",
-        "professor",
-        "staff"
-      ]
-    },
     "biography": {
       "type": "richtext"
+    },
+    "board_committee": {
+      "type": "boolean"
+    },
+    "faculty_committee": {
+      "type": "boolean"
+    },
+    "professor": {
+      "type": "boolean"
+    },
+    "staff": {
+      "type": "boolean"
     }
   }
 }
