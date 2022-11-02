@@ -6,7 +6,7 @@
     "mime-types": "^2.1.27",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "strapi-tiptap-editor": "^0.8.0",
+    "strapi-tiptap-editor": "^0.9.6",
     "@strapi/strapi": "4.4.1",
     "@strapi/plugin-users-permissions": "4.4.1",
     "@strapi/plugin-i18n": "4.4.1",
