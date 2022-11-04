@@ -90,7 +90,7 @@
     "overview_menu_6": {
       "type": "string"
     },
-    "why_choose_header": {
+    "header_overview": {
       "type": "string"
     },
     "student_archive_header": {
@@ -162,8 +162,62 @@
     "path_url": {
       "type": "string"
     },
-    "why_choose": {
+    "overview": {
       "type": "richtext"
+    },
+    "header_student_archives": {
+      "type": "string"
+    },
+    "curriculum_undergrad": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "curriculum_postgrad": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "scholarship_subheader_undergrad": {
+      "type": "string"
+    },
+    "scholarship_subheader_postgrad": {
+      "type": "string"
+    },
+    "scholarship_undergrad": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::scholarship.scholarship"
+    },
+    "scholarship_postgrad": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::scholarship.scholarship"
+    },
+    "header_tuition": {
+      "type": "string"
+    },
+    "tuition_undergrad": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
