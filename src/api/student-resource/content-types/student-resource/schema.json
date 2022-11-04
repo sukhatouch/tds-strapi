@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "student_resources",
+  "info": {
+    "singularName": "student-resource",
+    "pluralName": "student-resources",
+    "displayName": "Student Resource",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "resource_name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url_link": {
+      "type": "string"
+    }
+  }
+}
