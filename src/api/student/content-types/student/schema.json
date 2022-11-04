@@ -27,17 +27,6 @@
     "bachelor_degree_description": {
       "type": "richtext"
     },
-    "bachelor_degree_file": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "master_degree_header": {
       "type": "string"
     },
@@ -78,6 +67,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::student-committee.student-committee"
+    },
+    "student_support_header": {
+      "type": "string"
+    },
+    "student_resources_header": {
+      "type": "string"
     }
   }
 }
