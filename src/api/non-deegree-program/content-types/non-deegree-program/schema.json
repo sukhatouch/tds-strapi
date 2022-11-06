@@ -4,7 +4,8 @@
   "info": {
     "singularName": "non-deegree-program",
     "pluralName": "non-deegree-programs",
-    "displayName": "Non Deegree Program"
+    "displayName": "Non Deegree Program",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,22 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "program_in": {
+      "type": "enumeration",
+      "enum": [
+        "programs in built environment",
+        "programs in design & strategy"
+      ]
     }
   }
 }
