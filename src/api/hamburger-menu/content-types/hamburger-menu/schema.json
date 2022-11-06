@@ -4,14 +4,15 @@
   "info": {
     "singularName": "hamburger-menu",
     "pluralName": "hamburger-menus",
-    "displayName": "Hamburger Menu"
+    "displayName": "Hamburger Menu",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "section_1_header": {
+    "section_header_1": {
       "type": "string"
     },
     "sub_section_1": {
@@ -23,16 +24,16 @@
     "sub_section_3": {
       "type": "string"
     },
-    "programs_in_built_environment": {
+    "degree_built_environment": {
       "type": "richtext"
     },
-    "programs_in_design_and_strategy": {
+    "degree_design_strategy": {
       "type": "richtext"
     },
-    "non_degree_program": {
+    "non_degree_design_strategy": {
       "type": "richtext"
     },
-    "apply_now_link": {
+    "button_apply": {
       "type": "string"
     },
     "section_2_header": {
@@ -46,6 +47,12 @@
     },
     "resources_list": {
       "type": "richtext"
+    },
+    "non_degree_built_environment": {
+      "type": "richtext"
+    },
+    "button_login": {
+      "type": "string"
     }
   }
 }
