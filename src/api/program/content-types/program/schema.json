@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "image": {
+    "image_1": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -90,7 +90,7 @@
     "overview_menu_6": {
       "type": "string"
     },
-    "header_overview": {
+    "overview_header": {
       "type": "string"
     },
     "student_archive_header": {
@@ -165,9 +165,6 @@
     "overview": {
       "type": "richtext"
     },
-    "header_student_archives": {
-      "type": "string"
-    },
     "curriculum_undergrad": {
       "type": "media",
       "multiple": false,
@@ -206,39 +203,24 @@
       "relation": "oneToMany",
       "target": "api::scholarship.scholarship"
     },
-    "header_tuition": {
+    "tuition_header": {
       "type": "string"
-    },
-    "tuition_undergrad": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "header_scholarship": {
-      "type": "string"
-    },
-    "tuition_postgrad": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     },
     "curriculum_undergrad_header": {
       "type": "string"
     },
     "curriculum_postgrad_header": {
       "type": "string"
+    },
+    "tuition_undergrad": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tuition.tuition"
+    },
+    "tuition_postgrad": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tuition.tuition"
     }
   }
 }
