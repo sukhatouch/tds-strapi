@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "th_name": {
       "type": "string"
     },
-    "surname": {
+    "en_name": {
       "type": "string"
     },
     "photo": {
@@ -33,12 +33,6 @@
       "type": "string"
     },
     "company": {
-      "type": "string"
-    },
-    "program": {
-      "type": "string"
-    },
-    "image_url": {
       "type": "string"
     },
     "biography": {
