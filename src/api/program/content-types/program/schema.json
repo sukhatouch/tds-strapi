@@ -213,6 +213,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tuition.tuition"
+    },
+    "tuition_subheader_undergrad": {
+      "type": "string"
+    },
+    "tuition_subheader_postgrad": {
+      "type": "string"
     }
   }
 }
