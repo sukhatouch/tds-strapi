@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "th_name": {
       "type": "string"
     },
-    "surname": {
+    "en_name": {
       "type": "string"
     },
     "program": {
