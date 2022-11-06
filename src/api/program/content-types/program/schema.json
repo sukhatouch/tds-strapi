@@ -56,11 +56,6 @@
       "relation": "oneToMany",
       "target": "api::work-archive.work-archive"
     },
-    "scholarships": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::scholarship.scholarship"
-    },
     "curriculum": {
       "type": "richtext"
     },
@@ -152,9 +147,6 @@
         "videos",
         "audios"
       ]
-    },
-    "tuition_fees_header": {
-      "type": "string"
     },
     "scholarship_header": {
       "type": "string"
