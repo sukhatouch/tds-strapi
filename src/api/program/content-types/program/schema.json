@@ -210,14 +210,35 @@
       "type": "string"
     },
     "tuition_undergrad": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "header_scholarship": {
+      "type": "string"
+    },
+    "tuition_postgrad": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "curriculum_undergrad_header": {
+      "type": "string"
+    },
+    "curriculum_postgrad_header": {
+      "type": "string"
     }
   }
 }
