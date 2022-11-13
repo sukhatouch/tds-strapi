@@ -36,13 +36,13 @@
     "button_apply": {
       "type": "string"
     },
-    "section_2_header": {
+    "section_header_2": {
       "type": "string"
     },
     "faculty_list": {
       "type": "richtext"
     },
-    "section_3_header": {
+    "section_header_3": {
       "type": "string"
     },
     "resources_list": {
