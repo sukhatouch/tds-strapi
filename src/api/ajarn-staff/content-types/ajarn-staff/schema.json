@@ -47,7 +47,16 @@
     "admin_staff": {
       "type": "boolean"
     },
-    "order_no": {
+    "board_committee_order_no": {
+      "type": "string"
+    },
+    "faculty_committee_order_no": {
+      "type": "string"
+    },
+    "faculty_member_order_no": {
+      "type": "string"
+    },
+    "admin_staff_order_no": {
       "type": "string"
     }
   }
