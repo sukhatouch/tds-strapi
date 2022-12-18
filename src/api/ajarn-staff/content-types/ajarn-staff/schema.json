@@ -46,6 +46,9 @@
     },
     "admin_staff": {
       "type": "boolean"
+    },
+    "order_no": {
+      "type": "string"
     }
   }
 }
